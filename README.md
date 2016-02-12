@@ -2,7 +2,7 @@ Streaming Video Ionic with Videogular Example
 =====================
 ## Veja o tutorial dessa aplicação ##
 
-> http://leonardocouy.com/2016/02/01/autenticando-pelo-facebook-com-openfb/
+> http://leonardocouy.com/2016/02/12/streaming-de-audio-e-video-em-ionic/
 
 ## Como rodar esta aplicação? ##
 
