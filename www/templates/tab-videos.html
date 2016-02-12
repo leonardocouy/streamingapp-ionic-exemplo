@@ -1,0 +1,17 @@
+<ion-view view-title="Live Videos">
+  <ion-content padding="true">
+  <videogular vg-theme="config.theme.url" vg-player-ready="onPlayerReady($API)">
+	  <vg-media vg-src="config.sources">
+	  </vg-media>
+	</videogular>
+
+	<ion-list type="card">
+		<ion-item class="item-divider">Selecione um video:</ion-item>
+	  <ion-item ng-repeat="video in videos track by $index" ng-click="showVideo($index)">
+	  	{{video.name}}
+	  </ion-item>
+	</ion-list>
+
+
+  </ion-content>
+</ion-view>
